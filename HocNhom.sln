@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai1-CoBanHuongDoiTuong", "Bai1-CoBanHuongDoiTuong\Bai1-CoBanHuongDoiTuong.csproj", "{F07FBA02-695F-4B8A-B2FE-E8EEA58C8A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2", "Bai2\Bai2.csproj", "{B66C34C3-456C-49EE-8403-A0AF136011F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai3 - Looping Construct", "Bai3 - Looping Construct\Bai3 - Looping Construct.csproj", "{958371FD-60A9-4711-9D56-E83A6FE94171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTVN_1_Hiep", "Bai3 - Hiep\BTVN_1_Hiep.csproj", "{1D8CD83B-362A-4702-BF50-78C2B0D6C53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bai3-loc", "bai3-loc\bai3-loc.csproj", "{4C5752F5-23F7-4AA8-8687-6B1BBC0A08BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai3 - Duc", "Bai3 - Duc\Bai3 - Duc.csproj", "{E9E764C4-7FCA-4E84-831F-35A1B8E515FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTVN_2_Hiep_NotePad", "BTVN_2_Hiep_NotePad\BTVN_2_Hiep_NotePad.csproj", "{BCE1E7FE-0526-4691-B025-FCD990F0CA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaPad-QuangTran", "NotaPad-QuangTran\NotaPad-QuangTran.csproj", "{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://quangtm.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Bai1-CoBanHuongDoiTuong\\Bai1-CoBanHuongDoiTuong.csproj
+		SccProjectName1 = Bai1-CoBanHuongDoiTuong
+		SccLocalPath1 = Bai1-CoBanHuongDoiTuong
+		SccProjectUniqueName2 = Bai2\\Bai2.csproj
+		SccProjectName2 = Bai2
+		SccLocalPath2 = Bai2
+		SccProjectUniqueName3 = Bai3\u0020-\u0020Looping\u0020Construct\\Bai3\u0020-\u0020Looping\u0020Construct.csproj
+		SccProjectName3 = Bai3\u0020-\u0020Looping\u0020Construct
+		SccLocalPath3 = Bai3\u0020-\u0020Looping\u0020Construct
+		SccProjectUniqueName4 = Bai3\u0020-\u0020Hiep\\BTVN_1_Hiep.csproj
+		SccProjectName4 = Bai3\u0020-\u0020Hiep
+		SccLocalPath4 = Bai3\u0020-\u0020Hiep
+		SccProjectUniqueName5 = bai3-loc\\bai3-loc.csproj
+		SccProjectName5 = bai3-loc
+		SccLocalPath5 = bai3-loc
+		SccProjectUniqueName6 = Bai3\u0020-\u0020Duc\\Bai3\u0020-\u0020Duc.csproj
+		SccProjectName6 = Bai3\u0020-\u0020Duc
+		SccLocalPath6 = Bai3\u0020-\u0020Duc
+		SccProjectUniqueName7 = BTVN_2_Hiep_NotePad\\BTVN_2_Hiep_NotePad.csproj
+		SccProjectName7 = BTVN_2_Hiep_NotePad
+		SccLocalPath7 = BTVN_2_Hiep_NotePad
+		SccProjectUniqueName8 = NotaPad-QuangTran\\NotaPad-QuangTran.csproj
+		SccProjectName8 = NotaPad-QuangTran
+		SccLocalPath8 = NotaPad-QuangTran
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F07FBA02-695F-4B8A-B2FE-E8EEA58C8A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07FBA02-695F-4B8A-B2FE-E8EEA58C8A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07FBA02-695F-4B8A-B2FE-E8EEA58C8A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07FBA02-695F-4B8A-B2FE-E8EEA58C8A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66C34C3-456C-49EE-8403-A0AF136011F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66C34C3-456C-49EE-8403-A0AF136011F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66C34C3-456C-49EE-8403-A0AF136011F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66C34C3-456C-49EE-8403-A0AF136011F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958371FD-60A9-4711-9D56-E83A6FE94171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958371FD-60A9-4711-9D56-E83A6FE94171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958371FD-60A9-4711-9D56-E83A6FE94171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958371FD-60A9-4711-9D56-E83A6FE94171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8CD83B-362A-4702-BF50-78C2B0D6C53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8CD83B-362A-4702-BF50-78C2B0D6C53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8CD83B-362A-4702-BF50-78C2B0D6C53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8CD83B-362A-4702-BF50-78C2B0D6C53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5752F5-23F7-4AA8-8687-6B1BBC0A08BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5752F5-23F7-4AA8-8687-6B1BBC0A08BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5752F5-23F7-4AA8-8687-6B1BBC0A08BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5752F5-23F7-4AA8-8687-6B1BBC0A08BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E764C4-7FCA-4E84-831F-35A1B8E515FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E764C4-7FCA-4E84-831F-35A1B8E515FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E764C4-7FCA-4E84-831F-35A1B8E515FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E764C4-7FCA-4E84-831F-35A1B8E515FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE1E7FE-0526-4691-B025-FCD990F0CA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE1E7FE-0526-4691-B025-FCD990F0CA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE1E7FE-0526-4691-B025-FCD990F0CA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE1E7FE-0526-4691-B025-FCD990F0CA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
