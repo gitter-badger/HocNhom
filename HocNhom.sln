@@ -19,37 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTVN_2_Hiep_NotePad", "BTVN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotaPad-QuangTran", "NotaPad-QuangTran\NotaPad-QuangTran.csproj", "{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DucBTVN Note", "DucBTVN Note\DucBTVN Note.csproj", "{E478630D-3B70-4737-AA08-FED5EB3189ED}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://quangtm.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Bai1-CoBanHuongDoiTuong\\Bai1-CoBanHuongDoiTuong.csproj
-		SccProjectName1 = Bai1-CoBanHuongDoiTuong
-		SccLocalPath1 = Bai1-CoBanHuongDoiTuong
-		SccProjectUniqueName2 = Bai2\\Bai2.csproj
-		SccProjectName2 = Bai2
-		SccLocalPath2 = Bai2
-		SccProjectUniqueName3 = Bai3\u0020-\u0020Looping\u0020Construct\\Bai3\u0020-\u0020Looping\u0020Construct.csproj
-		SccProjectName3 = Bai3\u0020-\u0020Looping\u0020Construct
-		SccLocalPath3 = Bai3\u0020-\u0020Looping\u0020Construct
-		SccProjectUniqueName4 = Bai3\u0020-\u0020Hiep\\BTVN_1_Hiep.csproj
-		SccProjectName4 = Bai3\u0020-\u0020Hiep
-		SccLocalPath4 = Bai3\u0020-\u0020Hiep
-		SccProjectUniqueName5 = bai3-loc\\bai3-loc.csproj
-		SccProjectName5 = bai3-loc
-		SccLocalPath5 = bai3-loc
-		SccProjectUniqueName6 = Bai3\u0020-\u0020Duc\\Bai3\u0020-\u0020Duc.csproj
-		SccProjectName6 = Bai3\u0020-\u0020Duc
-		SccLocalPath6 = Bai3\u0020-\u0020Duc
-		SccProjectUniqueName7 = BTVN_2_Hiep_NotePad\\BTVN_2_Hiep_NotePad.csproj
-		SccProjectName7 = BTVN_2_Hiep_NotePad
-		SccLocalPath7 = BTVN_2_Hiep_NotePad
-		SccProjectUniqueName8 = NotaPad-QuangTran\\NotaPad-QuangTran.csproj
-		SccProjectName8 = NotaPad-QuangTran
-		SccLocalPath8 = NotaPad-QuangTran
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -87,6 +59,10 @@ Global
 		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDDA3D65-0FD9-4DF0-BECD-0EEE30A2A7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E478630D-3B70-4737-AA08-FED5EB3189ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E478630D-3B70-4737-AA08-FED5EB3189ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E478630D-3B70-4737-AA08-FED5EB3189ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E478630D-3B70-4737-AA08-FED5EB3189ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
