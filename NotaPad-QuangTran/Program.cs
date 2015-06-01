@@ -7,6 +7,8 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Media;
 using System.IO;
+using System.Web;
+using System.Net;
 
 namespace NotaPad_QuangTran
 {
@@ -46,9 +48,31 @@ namespace NotaPad_QuangTran
             
             //s.Play();
         }
+
+        public static void RequestResponse(string contentPost)
+        {
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://google.com.vn");
+            request.Method = "GET";
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.Accept = "Accept=text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
+
+            //using (StreamWriter writer = new StreamWriter(request.GetRequestStream(), Encoding.ASCII))
+            //{
+            //    writer.Write("content=" + contentPost);
+            //}
+
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            Console.SetBufferSize(300, 500);
+            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            {
+                Console.WriteLine(reader.ReadToEnd());
+            }
+        }
         static void Main(string[] args)
         {
-            Program.drawImage(@"D:\2.jpg");
+            //Program.drawImage(@"D:\2.jpg");
+            Program.RequestResponse("");
+            Console.ReadLine();
             //Random n = new Random();
             //while (true)
             //{

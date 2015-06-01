@@ -8,7 +8,7 @@ using System.IO;
 namespace BTVN_1_Hiep
 {
     //Bai 1: Truyền vào 1 số, ktra xem có phải số nguyên tố (số chỉ chia hết cho nó) hay không?
-    class InputNumber
+    public class InputNumber
     {
         public void printResult()
         {
@@ -81,22 +81,22 @@ namespace BTVN_1_Hiep
             //    Console.Write(mangKyTu[i]);
             //}
 
-            string[] soft8 = new string[4];
-            soft8[0] = "Hiep";
-            soft8[1] = "Quang";
-            soft8[2] = "Duc";
-            soft8[3] = "Loc";
+            //string[] soft8 = new string[4];
+            //soft8[0] = "Hiep";
+            //soft8[1] = "Quang";
+            //soft8[2] = "Duc";
+            //soft8[3] = "Loc";
 
-            Random r = new Random();
-            int i = r.Next(1, 6);
-            while (i == 1)
-            {
-                i = r.Next(0, 4);
-                if (i == 4)
-                    i--;
-            }
+            //Random r = new Random();
+            //int i = r.Next(1, 6);
+            //while (i == 1)
+            //{
+            //    i = r.Next(0, 4);
+            //    if (i == 4)
+            //        i--;
+            //}
 
-            Console.Write("{0} xinh gai du doi", soft8[i]);
+            //Console.Write("{0} xinh gai du doi", soft8[i]);
             //int j = 0;
             //while (j < soft8.Length)
             //{
@@ -109,32 +109,121 @@ namespace BTVN_1_Hiep
             //    Console.WriteLine(soft8[i]);
             //}
 
-            int[,] mang2Chieu = new int[2, 3];
-            mang2Chieu[0, 0] = 1;
-            mang2Chieu[0, 1] = 2;
-            mang2Chieu[0, 2] = 3;
-            mang2Chieu[1, 0] = 4;
-            mang2Chieu[1, 1] = 5;
-            mang2Chieu[1, 2] = 6;
+            //int[,] mang2Chieu = new int[2, 3];
+            //mang2Chieu[0, 0] = 1;
+            //mang2Chieu[0, 1] = 2;
+            //mang2Chieu[0, 2] = 3;
+            //mang2Chieu[1, 0] = 4;
+            //mang2Chieu[1, 1] = 5;
+            //mang2Chieu[1, 2] = 6;
 
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 2; j++)
-                {
-                    Console.Write("--{0}", mang2Chieu[j, i]);
-                    if (j == 1)
-                    {
-                        Console.Write("--");
-                        Console.WriteLine("");
-                    }
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    for (int j = 0; j < 2; j++)
+            //    {
+            //        Console.Write("--{0}", mang2Chieu[j, i]);
+            //        if (j == 1)
+            //        {
+            //            Console.Write("--");
+            //            Console.WriteLine("");
+            //        }
 
-                }
-            }
+            //    }
+            //}
 
             //for (int i = mangSo.Length - 1; i >= 0; i--)
             //{
             //    Console.WriteLine(mangSo[i]);
             //}
+
+            //string sex = "=";
+            //switch (sex)
+            //{
+            //    case "man":
+            //        Console.Write("Loc chuan man");
+            //        break;
+            //    case "woman":
+            //        Console.Write("Xin chao thim Loc");
+            //        break;
+            //    case "gay":
+            //        Console.Write("Loc ma gay thi cho no yeu");
+            //        break;
+            //    default:
+            //        Console.Write("Khong xac dinh thi dam dau vao dit bo ma chet");
+            //        break;
+            //}
+
+            //string name = "Quang";
+            //if (name == "Kim")
+            //{
+            //    Console.Write("Xin chao Kim sieu vong 3");
+            //}
+            //else
+            //{
+            //    Console.Write("Bybye");
+            //}
+
+            string s = "Quang";
+            int count = 1;
+            //while (count < 10)
+            //{
+            //    Console.WriteLine(count + ".Xin chao Quang");
+            //    if (count == 5)
+            //    {
+            //        count = 8;
+            //        continue;
+            //    }
+                    
+            //    count = count + 1;
+            //}
+
+            //do
+            //{
+            //    Console.WriteLine(count + ".Xin chao Quang");
+            //    count = count + 1;
+            //} while (count < 0);
+
+            //for (int i = 10; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //List<string> Class = new List<string>{
+            //    "KT1", "KT2", "CNTT1", "CNTT2"
+            //};
+
+            //foreach (var item in Class)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            int left = 30;
+            int top = 20;
+            Console.SetCursorPosition(left, top);
+            for (int i = 0; i < 10; i++)
+            {
+                Console.SetCursorPosition(left, top + i);
+                for (int j = 0; j < 20; j++)
+                {
+                    Console.Write(" ");
+                    if (j == 19)
+                    {
+                        Console.WriteLine(" ");
+                    }
+                }
+            }
+
+            //primative
+            int integer;//integer32 = +- 2ty, integer64, integer16
+            int a = 3; int b = 5; int c = a + b;
+            double d;//.
+            float f;//.
+            decimal d1;
+
+            string a1 = "Quang";
+            char c1 = 'a';
+
+            bool b1 = true || false;
         }
     }
     class Program
@@ -143,6 +232,7 @@ namespace BTVN_1_Hiep
         {
             //Bai 1: Truyền vào 1 số, ktra xem có phải số nguyên tố (số chỉ chia hết cho nó) hay không?
             InputNumber number = new InputNumber();
+            number.displayArray();
             //number.isPrime(); thua
             //number.printResult();
             //number.displayPrimes(306);
@@ -158,7 +248,7 @@ namespace BTVN_1_Hiep
 
             //FileStream filestr = new FileStream("D:/hocnhom.nfr", FileMode.Open, FileAccess.Read);//dieu da hieu
             //StreamReader reader = new StreamReader(filestr);
-            //reader.BaseStream.Seek(0, SeekOrigin.Begin);//dieu kho hieu, chua duoc giai thich
+            //reader.BaseStream.Seek(0, SeekOrigin.Begin);//p1: 
             //string str = reader.ReadLine();
             //do
             //{
@@ -189,7 +279,7 @@ namespace BTVN_1_Hiep
             //{
             //    Console.WriteLine(files[i].Name, ConsoleColor.Blue);
             //}
-            Console.Beep(60, 6000);
+            Console.Beep(2000, 500);
             //while (true)
             //{
             //    Console.Beep(60, 6000);

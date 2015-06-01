@@ -18,10 +18,16 @@ namespace Bai1_CoBanHuongDoiTuong
         internal string Internal;
         protected string Protected;
         protected internal int ProtectedInternal;
+        People o;
         public void Display(string Name)
         {
             Console.WriteLine(Name);
         }
+
+        //public void Display(People p)
+        //{
+        //    Console.WriteLine(p.Name);
+        //}
 
         //signature
         public void Display(string Name, string Tuoi)
@@ -63,15 +69,15 @@ namespace Bai1_CoBanHuongDoiTuong
             #endregion
 
             #region Phan2
-            People loc = new People();
-            loc.Name = "Loc";
-            People hiep = new People();
-            hiep.Name = "Hiep";
-            People duc = new People();
-            duc.Name = "Duc";
-            People ketqua = loc * duc + hiep * duc;// phep nhan
+            //People loc = new People();
+            //loc.Name = "Loc";
+            //People hiep = new People();
+            //hiep.Name = "Hiep";
+            //People duc = new People();
+            //duc.Name = "Duc";
+            //People ketqua = loc * duc + hiep * duc;// phep nhan phep nhan
 
-            Console.WriteLine("Ket qua: " + ketqua.Name);
+            //Console.WriteLine("Ket qua: " + ketqua.Name);
 
             //Console.ReadLine(); 
             #endregion
@@ -105,7 +111,7 @@ namespace Bai1_CoBanHuongDoiTuong
             //cm.Boi();
             //cm.De();
             //cm.An();
-            CaMap cm = new CaMap();
+            //CaMap cm = new CaMap();
 
             //trong khi điều kiện còn đúng, thì thực hiện khối lệnh
             //int i = 0;
@@ -130,6 +136,27 @@ namespace Bai1_CoBanHuongDoiTuong
             //{
             //    Console.WriteLine(item.name);
             //}
+            //Program p = new Program();
+            //People p1 = new People();
+            //p.Display(p1);
+
+            Women nganTun = new Women();
+            Women loc = new Women();
+            nganTun.name = "Ngan tun";
+            nganTun.child = new People();
+            nganTun.child.Name = "Quang Hoang";
+            People loc1 = new People();
+            nganTun.RuConNgu(loc1);
+            nganTun.v1 = 70;
+            nganTun.v2 = 75;
+            nganTun.v3 = 80;
+            loc.v1 = 90;
+            loc.v2 = 58;
+            loc.v3 = 95;
+            Console.WriteLine(string.Format("v1: {0}, v2: {1}, v3:{2}", nganTun.v1, nganTun.v2, nganTun.v3));
+            nganTun.an();
+            //nganTun.choi();
+            nganTun.ngu();
             Console.ReadLine();
         }
 

@@ -31,7 +31,7 @@ namespace BTVN_2_Hiep_NotePad
                 //    console.writeline();
                 //}
                 //console.readline();
-
+                Console.Clear();
                 Console.WriteLine("* MY NOTEPAD *\n");
                 Console.WriteLine("- MENU -\n");
                 Console.WriteLine("Xin vui long nhap so thu tu sau do Enter de lua chon danh muc\n(VD: Nhan phim so 1 de vao menu File).\nNhan phim e roi Enter de thoat chuong trinh\n");
@@ -210,10 +210,7 @@ namespace BTVN_2_Hiep_NotePad
                                 break;
                         }
                     }
-                    else
-                    {
-                        Console.WriteLine("So ban nhap khong hop le. Vui long nhap so trong khoang tu 1 -> 5 tuong ung voi danh muc.");
-                    }
+                    
                 }
                 else
                 {

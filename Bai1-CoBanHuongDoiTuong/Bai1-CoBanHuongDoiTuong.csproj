@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractionEncapsulation.cs" />
     <Compile Include="DynamicPolymorphism.cs" />
     <Compile Include="OperatorOverloading.cs" />
     <Compile Include="Program.cs" />

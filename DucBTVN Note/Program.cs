@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace DucBTVN_Note
 {
+    class DucNotepad
+    {
+        
+    }
     class Program
     {
         static void Main(string[] args)
