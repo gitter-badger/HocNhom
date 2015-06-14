@@ -25,7 +25,7 @@ namespace DucBTVN_Note
             while (!bExit)
             {
                 
-                Console.WriteLine("Welcome to NotePad program!");
+                Console.WriteLine("Welcome to NotePad program! ");
                 Console.WriteLine("Choose a number to manipulation this program.");
                 Console.WriteLine("Choose `e` to exit this program.");
                 Console.WriteLine("1. Create new file.");
