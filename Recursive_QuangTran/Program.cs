@@ -53,13 +53,13 @@ namespace Recursive_QuangTran
             //    i /= 2;j++;
             //}
             //Console.Write(j);
-            SortAlgorithm s = new SortAlgorithm();
-            int[] listNumber = s.InsertionSort(new int[] { 1, 2, 3, 5, 6, 4 });//2 1 4 3
-            for (int i = 0; i < listNumber.Length; i++)
-            {
-                Console.Write(string.Format(",{0}", listNumber[i]));
+            //SortAlgorithm s = new SortAlgorithm();
+            //int[] listNumber = s.InsertionSort(new int[] { 1, 2, 3, 5, 6, 4 });//2 1 4 3
+            //for (int i = 0; i < listNumber.Length; i++)
+            //{
+            //    Console.Write(string.Format(",{0}", listNumber[i]));
 
-            }
+            //}
             //    Console.WriteLine(s.count);
             //int n = 5;
             //SortAlgorithm s = new SortAlgorithm();
@@ -86,7 +86,8 @@ namespace Recursive_QuangTran
             // !, (), cac phep toan &&, ||, ^
             //bool a = 3 > 4 ^ 4 > 5 || true && !false ;
             //Console.WriteLine(a);
-
+            Rect r = new Rect();
+            r.Circle(40, 40, 30);
             Console.ReadLine();
         }
     }

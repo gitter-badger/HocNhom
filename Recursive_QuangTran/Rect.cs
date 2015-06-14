@@ -46,5 +46,29 @@ namespace Recursive_QuangTran
             drawRect(x + 2, y + 2, width - 4, height - 4);
           
         }
+
+        public void Circle(int centerX, int centerY, int radius)
+        {
+            if (radius < 4)
+                return;
+            double x, y;
+            x = -radius;
+            while (x < radius)
+            {
+                y = Math.Sqrt(radius * radius - x * x);
+                Circle(x + centerX, y + centerY);
+                y = -y;
+                Circle(x + centerX, y + centerY);
+                x++;
+            }
+
+            Circle(centerX, centerX, radius - 4);
+        }
+
+        private void Circle(double p1, double p2)
+        {
+            Console.SetCursorPosition((int)p1, (int)p2);
+            Console.Write("O");
+        }
     }
 }
